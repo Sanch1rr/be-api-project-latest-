@@ -1,5 +1,5 @@
 var bcrypt = require("bcrypt");
-const Users = require("./models/Users");
+const Users = require("./models/users");
 
 bcrypt.hash("123456", 10).then((data) => {
   console.log(data);
